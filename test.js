@@ -1,8 +1,8 @@
-var http = require('http');
-var dt = require('./myfirstmodule');
+const { Script } = require("vm")
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.write("The date and time are currently: " + dt.myDateTime());
-  res.end();
-}).listen(8080);
+<!DOCTYPE html>
+<body>
+    <script>
+        alert("I'm JavaScript!");
+    </script>
+</body>

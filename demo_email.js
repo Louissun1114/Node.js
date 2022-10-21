@@ -10,9 +10,9 @@ var transporter = nodemailer.createTransport({
 
 var mailOptions = {
   from: 'weiyu.sun@trames.sg',
-  to: 'CST1909160@xmu.edu.my',
+  to: 'yhua7717@sydney.edu.au',
   subject: '<Sending Email using Node.js>',
-  text: 'Are you fucking missing me?'
+  text: "可以互相送嘿嘿💍💍"
 };
 
 transporter.sendMail(mailOptions, function(error, info){
